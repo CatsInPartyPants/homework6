@@ -8,9 +8,9 @@ void multiplication_table(int);
 int main()
 {
     setlocale(LC_ALL, "ru");
+    
     //task1
-
-    /*
+        
     char user_input;
     cout << "Enter any simbol-> (for exit 0) ";
     cin >> user_input;
@@ -31,11 +31,11 @@ int main()
         }
         cin >> user_input;
     }
-    */
+    
 
     //task2
 
-    /*
+    
     int user_operator, friend_operator;
     double call_minutes;
     double mts_out = 5, megafon_out=3.5, tele2_out = 1.5;
@@ -69,11 +69,10 @@ int main()
     else{
         cout << "incorrect user operator!\n";
     }
-    */
+    
 
     //task3
-
-    /*
+        
     int menu_number;
     cout << "Меню:\n\n";
     cout << "1. Ввести желаемый доход и количество опозданий, для того, чтобы посчитать, сколько строк" 
@@ -150,11 +149,9 @@ int main()
             cout << "Программист получит $" << total_wage << endl;
         }
     }
-    */
-
-    //task 4
     
-    /*
+    //task 4
+        
     int a;
     cout << "Введите значение a:";
     cin >> a;
@@ -164,10 +161,9 @@ int main()
         }
     }
     cout << a << endl;    
-    */
-
+    
     //task 5
-    /*
+    
     int x, y;
     cout << "Введите значение x, y. Значение x будет возведено в степень y->  \n";
     cout << "x: ";
@@ -192,20 +188,18 @@ int main()
     cout << result << endl;
     
     cout << pow(x, y);
-    */
-
+    
     //task 6
-    /*
+    
     double result = 0;
     for (int i = 1; i <= 1000; i++) {
         result += i;
     }
     result = result / 1000;
     cout << result << endl;
-    */
-
+    
     //task 7
-    /*
+    
     long long a;
     cout << "Введите число a, учитывая, что 1<=a<=20  -> ";
     cin >> a;
@@ -221,8 +215,7 @@ int main()
     else if(a==20) {
         cout << a * a;
     }
-    */
-
+    
     //task 8
     int number;
     for (int i = 1; i <= 9; i++) {
